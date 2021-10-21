@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" 
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/reset.css"/>
+    <link rel="stylesheet" href="./style/style.css"/>
+    <title>jokempo</title>
+</head>
+<body>
+<header class="header">
+<h1 class="winner-title">Vencedor</h1>
+<div class="scoreboard-box">
+<span class="player-name  player-name-1">Jogador 1</span>
+<strong class="scoreboard scoreboard-1">0</strong>
+<span class="vs-separation">VS</span>
+<strong class="scoreboard scoreboard-2">0</strong>
+<span class="player-name  player-name-2">Jogador 2</span>
+</div>
+</header>  
+<section class="battlefield-container">
+    <div class="button-wrapper">
+        <button class="button-move button-stone-1">Pedra</button>
+        <button class="button-move button-paper-1">Papel</button>
+        <button class="button-move button-scissors-1">Tesoura</button>
+        </div>
+        <div class="battlefield">
+            <div class="field field-1"></div>
+            <span class="vs-separtion vs-separation--big">VS</span>
+            <div class="field field-2"> </div>
+        </div>
+        <div class="button-wrapper">
+            <button class="button-move button-stone-2">Pedra</button>
+            <button class="button-move button-paper-2">Papel</button>
+            <button class="button-move button-scissors-2">Tesoura</button>
+            </div>
+</section>  
+<div class="button-bottom-wrapper">
+            <button class="button-move button-start">Iniciar</button>
+            <button class="button-move button-reset">Resetar</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

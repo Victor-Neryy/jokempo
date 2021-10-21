@@ -1,0 +1,156 @@
+body{
+background-color: #82cdff;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+
+}
+
+.winner-title{
+    background-color: #09f;
+    height: 74px;
+    font-size: 33px;
+    color:#ffff;
+    display: flex;
+    align-items: center;
+    padding: 0 66px;
+    border-radius: 12px 12px 0 0;
+    max-width: 430px;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.scoreboard-box{
+    height: 148px;
+    background-color: #09f;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    padding: 0 33px;
+}
+
+.player-name{
+    font-size: 38px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.scoreboard{
+    color: #09f;
+    background-color: #dbf1ff;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-weight: 900;
+}
+
+.vs-separation{
+    color: #ffff;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.vs-separation--big{
+    font-size: 104px;
+    margin: 0 88px;
+}
+
+.player-name-1{
+    margin-right: 19px;
+}
+
+.player-name-2{
+    margin-left: 19px;
+}
+
+.scoreboard-1{
+    margin-right: 51px;
+}
+
+.scoreboard-2{
+    margin-left: 51px;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+
+}
+
+.button-move{
+    height: 80px;
+    width: 220px;
+    background-color: #09f;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    transition: 400ms;
+}
+
+.button-move:hover{
+    border: 1px solid #09f;
+    background-color: transparent;
+    color: #09f;
+    box-shadow: 0 4px 0 #0000004d;
+}
+
+
+.battlefield-container{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.battlefield{
+    background-color: #09f;
+    display: flex;
+    padding: 30px;
+    border-radius: 17px;
+    margin: 0 19px;
+    align-items: center;
+}
+
+.field{
+    width: 464px;
+    height: 345px;
+    background-color: #ffff;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-2 .image-move{
+    transform: scaleX(-100%)
+
+}
+
+.button-start{
+    margin-right: 101px;
+}
+
+.image-move{
+    width: 80%;
+    
+    
+}
+
+.button-active{
+    border: 1px solid #09f;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 0 #0000004d;
+}
